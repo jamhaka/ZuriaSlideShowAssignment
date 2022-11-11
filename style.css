@@ -1,0 +1,145 @@
+
+body{
+
+    background-color: powderblue;
+}
+
+h1{
+
+    text-align: center;
+    color: black;
+}
+
+
+div.main {
+	background-color: rgb(8, 177, 120);
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-bottom: 42px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 810px;
+}
+		
+h4.subtitle {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 22px;
+	padding-top: 9px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	width: 620px;
+}
+
+
+.slideshow-container {
+	background-color: black;
+	height: 400px;
+	margin-bottom: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	max-width: 550px;
+	position: relative;
+}
+
+
+.mySlides {
+	display: none;
+}
+
+
+.prev, .next {
+	border-radius: 0 3px 3px 0;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: -22px;
+	padding: 16px;
+	position: absolute;
+	top: 50%;
+	transition: 0.6s ease;
+	user-select: none;
+	width: auto;
+}
+
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+.texttitle {
+	bottom: 7px;
+	color: #f2f2f2;
+	font-size: 36px;
+	padding: 8px 0px 224px 0px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+
+.text7 {
+	bottom: 7px;
+	color: #f2f2f2;
+	font-size: 18px;
+	padding: 8px 0px 24px 0px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+.dot {
+	background-color: #bbb;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	margin: 0 2px;
+	transition: background-color 0.6s ease;
+	width: 15px;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+
+
+img {
+
+    width: 500px;
+  
+  }
